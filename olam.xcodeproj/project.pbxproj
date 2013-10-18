@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775BA371180E16CE00C2AA57 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 775BA370180E16CE00C2AA57 /* Icon-72@2x.png */; };
+		775BA373180EC5DB00C2AA57 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 775BA372180EC5DB00C2AA57 /* Icon-72.png */; };
+		775BA376180EC66700C2AA57 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 775BA374180EC66700C2AA57 /* Icon.png */; };
+		775BA377180EC66700C2AA57 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 775BA375180EC66700C2AA57 /* Icon@2x.png */; };
+		775BA37D180EC86300C2AA57 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 775BA37C180EC86300C2AA57 /* Default-Landscape@2x~ipad.png */; };
+		775BA37F180EC8E400C2AA57 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 775BA37E180EC8E400C2AA57 /* Default-Landscape~ipad.png */; };
+		775BA381180EC98600C2AA57 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 775BA380180EC98600C2AA57 /* Default-Portrait@2x~ipad.png */; };
+		775BA383180EC9B700C2AA57 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 775BA382180EC9B700C2AA57 /* Default-Portrait~ipad.png */; };
+		778BF608180BB384004E8E0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778BF607180BB384004E8E0A /* UIKit.framework */; };
+		778BF60A180BB384004E8E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778BF609180BB384004E8E0A /* Foundation.framework */; };
+		778BF60C180BB385004E8E0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778BF60B180BB384004E8E0A /* CoreGraphics.framework */; };
+		778BF612180BB385004E8E0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 778BF610180BB385004E8E0A /* InfoPlist.strings */; };
+		778BF614180BB385004E8E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BF613180BB385004E8E0A /* main.m */; };
+		778BF618180BB385004E8E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BF617180BB385004E8E0A /* AppDelegate.m */; };
+		778BF61A180BB385004E8E0A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 778BF619180BB385004E8E0A /* Default.png */; };
+		778BF61C180BB385004E8E0A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 778BF61B180BB385004E8E0A /* Default@2x.png */; };
+		778BF61E180BB385004E8E0A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 778BF61D180BB385004E8E0A /* Default-568h@2x.png */; };
+		778BF621180BB385004E8E0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BF620180BB385004E8E0A /* ViewController.m */; };
+		778BF624180BB385004E8E0A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 778BF622180BB385004E8E0A /* ViewController.xib */; };
+		778BF630180C20FB004E8E0A /* EnMlDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BF62F180C20FB004E8E0A /* EnMlDict.m */; };
+		778BF633180C21A2004E8E0A /* DictDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BF632180C21A2004E8E0A /* DictDao.m */; };
+		778BF635180C26CA004E8E0A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 778BF634180C26CA004E8E0A /* libsqlite3.dylib */; };
+		778BF637180C27AF004E8E0A /* olam.db in Resources */ = {isa = PBXBuildFile; fileRef = 778BF636180C27AF004E8E0A /* olam.db */; };
+		778BF63A180C7259004E8E0A /* PorterStemmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BF639180C7259004E8E0A /* PorterStemmer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		775BA370180E16CE00C2AA57 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		775BA372180EC5DB00C2AA57 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		775BA374180EC66700C2AA57 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		775BA375180EC66700C2AA57 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		775BA37C180EC86300C2AA57 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		775BA37E180EC8E400C2AA57 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		775BA380180EC98600C2AA57 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		775BA382180EC9B700C2AA57 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		778BF604180BB384004E8E0A /* olam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		778BF607180BB384004E8E0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		778BF609180BB384004E8E0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		778BF60B180BB384004E8E0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		778BF60F180BB385004E8E0A /* olam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "olam-Info.plist"; sourceTree = "<group>"; };
+		778BF611180BB385004E8E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		778BF613180BB385004E8E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		778BF615180BB385004E8E0A /* olam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "olam-Prefix.pch"; sourceTree = "<group>"; };
+		778BF616180BB385004E8E0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		778BF617180BB385004E8E0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		778BF619180BB385004E8E0A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		778BF61B180BB385004E8E0A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		778BF61D180BB385004E8E0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		778BF61F180BB385004E8E0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		778BF620180BB385004E8E0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		778BF623180BB385004E8E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		778BF62E180C20FB004E8E0A /* EnMlDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnMlDict.h; sourceTree = "<group>"; };
+		778BF62F180C20FB004E8E0A /* EnMlDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnMlDict.m; sourceTree = "<group>"; };
+		778BF631180C21A2004E8E0A /* DictDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictDao.h; sourceTree = "<group>"; };
+		778BF632180C21A2004E8E0A /* DictDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictDao.m; sourceTree = "<group>"; };
+		778BF634180C26CA004E8E0A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		778BF636180C27AF004E8E0A /* olam.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = olam.db; sourceTree = "<group>"; };
+		778BF638180C7259004E8E0A /* PorterStemmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorterStemmer.h; sourceTree = "<group>"; };
+		778BF639180C7259004E8E0A /* PorterStemmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorterStemmer.m; sourceTree = "<group>"; };
+		778BF63B180C72AF004E8E0A /* porter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = porter.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		778BF601180BB384004E8E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778BF608180BB384004E8E0A /* UIKit.framework in Frameworks */,
+				778BF60A180BB384004E8E0A /* Foundation.framework in Frameworks */,
+				778BF60C180BB385004E8E0A /* CoreGraphics.framework in Frameworks */,
+				778BF635180C26CA004E8E0A /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		778BF5FB180BB384004E8E0A = {
+			isa = PBXGroup;
+			children = (
+				778BF60D180BB385004E8E0A /* olam */,
+				778BF606180BB384004E8E0A /* Frameworks */,
+				778BF605180BB384004E8E0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		778BF605180BB384004E8E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				778BF604180BB384004E8E0A /* olam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		778BF606180BB384004E8E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				778BF634180C26CA004E8E0A /* libsqlite3.dylib */,
+				778BF607180BB384004E8E0A /* UIKit.framework */,
+				778BF609180BB384004E8E0A /* Foundation.framework */,
+				778BF60B180BB384004E8E0A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		778BF60D180BB385004E8E0A /* olam */ = {
+			isa = PBXGroup;
+			children = (
+				778BF616180BB385004E8E0A /* AppDelegate.h */,
+				778BF617180BB385004E8E0A /* AppDelegate.m */,
+				778BF62D180C20DB004E8E0A /* Classes */,
+				778BF60E180BB385004E8E0A /* Supporting Files */,
+			);
+			path = olam;
+			sourceTree = "<group>";
+		};
+		778BF60E180BB385004E8E0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775BA382180EC9B700C2AA57 /* Default-Portrait~ipad.png */,
+				775BA380180EC98600C2AA57 /* Default-Portrait@2x~ipad.png */,
+				775BA37E180EC8E400C2AA57 /* Default-Landscape~ipad.png */,
+				775BA37C180EC86300C2AA57 /* Default-Landscape@2x~ipad.png */,
+				775BA374180EC66700C2AA57 /* Icon.png */,
+				775BA375180EC66700C2AA57 /* Icon@2x.png */,
+				775BA372180EC5DB00C2AA57 /* Icon-72.png */,
+				775BA370180E16CE00C2AA57 /* Icon-72@2x.png */,
+				778BF636180C27AF004E8E0A /* olam.db */,
+				778BF60F180BB385004E8E0A /* olam-Info.plist */,
+				778BF610180BB385004E8E0A /* InfoPlist.strings */,
+				778BF613180BB385004E8E0A /* main.m */,
+				778BF615180BB385004E8E0A /* olam-Prefix.pch */,
+				778BF619180BB385004E8E0A /* Default.png */,
+				778BF61B180BB385004E8E0A /* Default@2x.png */,
+				778BF61D180BB385004E8E0A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		778BF62D180C20DB004E8E0A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				778BF61F180BB385004E8E0A /* ViewController.h */,
+				778BF620180BB385004E8E0A /* ViewController.m */,
+				778BF622180BB385004E8E0A /* ViewController.xib */,
+				778BF62E180C20FB004E8E0A /* EnMlDict.h */,
+				778BF62F180C20FB004E8E0A /* EnMlDict.m */,
+				778BF631180C21A2004E8E0A /* DictDao.h */,
+				778BF632180C21A2004E8E0A /* DictDao.m */,
+				778BF638180C7259004E8E0A /* PorterStemmer.h */,
+				778BF639180C7259004E8E0A /* PorterStemmer.m */,
+				778BF63B180C72AF004E8E0A /* porter.c */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778BF603180BB384004E8E0A /* olam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778BF62A180BB385004E8E0A /* Build configuration list for PBXNativeTarget "olam" */;
+			buildPhases = (
+				778BF600180BB384004E8E0A /* Sources */,
+				778BF601180BB384004E8E0A /* Frameworks */,
+				778BF602180BB384004E8E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = olam;
+			productName = olam;
+			productReference = 778BF604180BB384004E8E0A /* olam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		778BF5FC180BB384004E8E0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jacob, Jeesmon";
+				TargetAttributes = {
+					778BF603180BB384004E8E0A = {
+						DevelopmentTeam = 58V2A74LJ7;
+					};
+				};
+			};
+			buildConfigurationList = 778BF5FF180BB384004E8E0A /* Build configuration list for PBXProject "olam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 778BF5FB180BB384004E8E0A;
+			productRefGroup = 778BF605180BB384004E8E0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				778BF603180BB384004E8E0A /* olam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778BF602180BB384004E8E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778BF612180BB385004E8E0A /* InfoPlist.strings in Resources */,
+				778BF61A180BB385004E8E0A /* Default.png in Resources */,
+				778BF61C180BB385004E8E0A /* Default@2x.png in Resources */,
+				778BF61E180BB385004E8E0A /* Default-568h@2x.png in Resources */,
+				778BF624180BB385004E8E0A /* ViewController.xib in Resources */,
+				778BF637180C27AF004E8E0A /* olam.db in Resources */,
+				775BA371180E16CE00C2AA57 /* Icon-72@2x.png in Resources */,
+				775BA373180EC5DB00C2AA57 /* Icon-72.png in Resources */,
+				775BA376180EC66700C2AA57 /* Icon.png in Resources */,
+				775BA377180EC66700C2AA57 /* Icon@2x.png in Resources */,
+				775BA37D180EC86300C2AA57 /* Default-Landscape@2x~ipad.png in Resources */,
+				775BA37F180EC8E400C2AA57 /* Default-Landscape~ipad.png in Resources */,
+				775BA381180EC98600C2AA57 /* Default-Portrait@2x~ipad.png in Resources */,
+				775BA383180EC9B700C2AA57 /* Default-Portrait~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778BF600180BB384004E8E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778BF614180BB385004E8E0A /* main.m in Sources */,
+				778BF618180BB385004E8E0A /* AppDelegate.m in Sources */,
+				778BF621180BB385004E8E0A /* ViewController.m in Sources */,
+				778BF630180C20FB004E8E0A /* EnMlDict.m in Sources */,
+				778BF633180C21A2004E8E0A /* DictDao.m in Sources */,
+				778BF63A180C7259004E8E0A /* PorterStemmer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		778BF610180BB385004E8E0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778BF611180BB385004E8E0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		778BF622180BB385004E8E0A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778BF623180BB385004E8E0A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		778BF628180BB385004E8E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		778BF629180BB385004E8E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		778BF62B180BB385004E8E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "olam/olam-Prefix.pch";
+				INFOPLIST_FILE = "olam/olam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		778BF62C180BB385004E8E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "olam/olam-Prefix.pch";
+				INFOPLIST_FILE = "olam/olam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778BF5FF180BB384004E8E0A /* Build configuration list for PBXProject "olam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778BF628180BB385004E8E0A /* Debug */,
+				778BF629180BB385004E8E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778BF62A180BB385004E8E0A /* Build configuration list for PBXNativeTarget "olam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778BF62B180BB385004E8E0A /* Debug */,
+				778BF62C180BB385004E8E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 778BF5FC180BB384004E8E0A /* Project object */;
+}
